@@ -1,0 +1,32 @@
+
+<app-nav-bar/>
+
+
+<section>
+    <h1
+          class=" mt-4 p-4 text-center bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl"
+        >
+          Users management made easy
+  
+          <span class="sm:block"> Increase your organization </span>
+    </h1>
+    <div class="flex justify-center items-center mt-8">
+        <button class="btn justify-center" (click)="showFormCreateFunc()" >Add New</button>
+    </div>
+    @if (userInfo) {
+        <app-user-form [action]="{action: 'update', user_id: userInfo.id}"></app-user-form>
+    }
+    @if(showFormCreate){
+        <app-user-form [action]="{action: 'create', user_id:'undefined'}"/>
+    }
+    <div class="min-w-fit flex justify-center items-center mb-8 mt-4 gap-4">
+        @if(users.length > 0){
+        <app-data-table-users (showFormChange)="onShowFormChange($event)" [userList]="users" />
+
+        }
+    </div>
+</section>
+
+
+
+

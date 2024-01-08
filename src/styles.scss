@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+//definir clase para un boton
+@layer components {
+  .btn {
+    @apply px-4 py-3 bg-blue-600 rounded-md text-white text-center outline-none focus:ring-4 shadow-lg transform active:scale-y-75 transition-transform flex justify-center
+  }
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

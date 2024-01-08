@@ -1,0 +1,44 @@
+// table {
+//     width: 90%;
+//   }
+
+// th {
+//     background-color: #4CAF50;
+//     color: white;
+//     font-weight: bold;
+//   }
+
+// td {
+//     // padding: 10px;
+//     color: white;
+// }
+
+table {
+  width: 100%;
+  border-collapse: collapse; 
+  margin: 0 auto; 
+}
+
+th, td {
+  padding: 10px; 
+  text-align: left; 
+  border-bottom: 1px solid #ddd;
+  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+ 
+}
+
+th {
+  background-color: #3c493d;
+  color: white;
+  font-weight: bold;
+}
+
+td {
+  color: white;
+}
+
+
+
+
+  
+ 
