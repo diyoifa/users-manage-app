@@ -51,39 +51,39 @@ The Component Composition architecture in Angular is based on building the user 
 
 
 ## MOBILE
-- **Home**
+## Home
 ![Alt text](image-1.png)
 
-- **Footer**
+## Footer
 ![Alt text](image-2.png)
 ![Alt text](image-3.png)
 
-- **Login**
+## Login
 ![Alt text](image-5.png)
 
-- **Login validation**
+## Login validation
 ![Alt text](image-6.png)
 
-- **Register**
+## Register
 ![Alt text](image-7.png)
 
-- **Register validation**
+## Register validation
 ![Alt text](image-8.png)
 
-- **Dashboard**
+## Dashboard
 ![Alt text](image.png)
 
 ## DESKTOP
-- **Home**
+## Home
 ![Alt text](image-12.png)
 
---**Update_Create_Form**
+## Update_Create_Form
 ![Alt text](image-11.png)
 
-- **Footer**
+## Footer
 ![Alt text](image-10.png)
 
-- **Dashboard**
+## Dashboard
 ![Alt text](image-9.png)
 
 
